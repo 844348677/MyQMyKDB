@@ -1,0 +1,8 @@
+把windows.zip压缩文件，解压出来的q文件夹发到C:目录下、
+打开cmd
+设置Q为命令
+不用输入目录，直接在cmd下输入q
+setx QHOME "C:\q"
+setx PATH "%PATH%;C:\q\w32"
+exit
+http://code.kx.com/q/tutorials/install/
